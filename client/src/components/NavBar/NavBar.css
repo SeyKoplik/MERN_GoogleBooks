@@ -3,7 +3,11 @@
 }
 
 .nav-link {
-    border: 1px solid #992D44;
-    margin-left: 10px;
+    border: 2px solid white;
+    text-align: center;
+    margin-left: 15px;
+    width: 120px;
     border-radius: 20px;
+    color: #EB9B06;
+    background-color: #165BAE;
 }

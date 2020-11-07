@@ -44,7 +44,7 @@ const SavedPage = () => {
                     )}
                 </SavedBooks>
             ) : (
-                    <h2>No Books Saved</h2>
+                    <p></p>
                 )}
         </>
     )

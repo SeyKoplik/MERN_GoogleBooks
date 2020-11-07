@@ -57,17 +57,17 @@ const SearchPage = () => {
 
         console.log(newBook)
 
-        const bookList = await getSavedBooks();
+        // const bookList = await getSavedBooks();
 
-        // Checks to see if book is already saved and alerts the user if so
-        console.log(`Book count: ${bookList.length}`)
-        for (let i = 0; i < bookList.length; i++) {
-            console.log(bookList[i].apiId)
-            if (bookList[i].apiId === newBook.apiId) {
-                alert("Book is already saved!")
-                return;
-            }
-        }
+        // // // Checks to see if book is already saved and alerts the user if so
+        // // console.log(`Book count: ${bookList.length}`)
+        // // for (let i = 0; i < bookList.length; i++) {
+        // //     console.log(bookList[i].apiId)
+        // //     if (bookList[i].apiId === newBook.apiId) {
+        // //         alert("Book is already saved!")
+        // //         return;
+        // //     }
+        // // }
 
         API.saveBook(newBook)
             .then(res =>

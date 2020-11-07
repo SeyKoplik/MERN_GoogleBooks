@@ -1,2 +1,22 @@
-# MERN_GoogleBooks
-MERN stack application where you can make an API call to google books API to search and be shown list of results and be able to save and post favorites in a different page
+# MERN - Google Books
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description
+
+## Screenshot Previews
+
+## Installation
+
+## Usage
+
+## Attributes
+
+## License
+
+MIT License - https://opensource.org/licenses/MIT
+
+## Links
+
+---
+&copy; 2020 Seychelle Koplik

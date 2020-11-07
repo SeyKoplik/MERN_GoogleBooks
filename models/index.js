@@ -1,3 +1,3 @@
 module.exports = {
-	Post: require("./Post")
+	Book: require("./book")
 };

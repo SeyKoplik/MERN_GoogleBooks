@@ -5,6 +5,11 @@
     border: 1px solid black;
     background-image: url("https://freefrontend.com/assets/img/css-background-patterns/untitled.png");
     color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 img {

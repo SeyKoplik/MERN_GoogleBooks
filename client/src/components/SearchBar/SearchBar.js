@@ -4,12 +4,12 @@ import './SearchBar.css';
 
 const SearchBar = props => {
     return (
-        <section className="shadow-sm searchBar">
+        <section className="searchBar">
 
-            <Form className="row">
-                <Input onChange={props.handleInputChange} type="text" name="booksearch" placeholder="Please enter a book title to search!" className="searchBox ml-3 col" value={props.searchInput} />
-                {" "}
-                <Button onClick={props.handleFormSubmit} className="searchBtn mr-3">Search</Button>
+            <Form className="row searchGroup">
+                <Input onChange={props.handleInputChange} type="text" name="booksearch" placeholder="Please enter a book title to search!" className="searchBox col-6" value={props.searchInput} />
+               
+                <Button onClick={props.handleFormSubmit} className="searchBtn searching">Search</Button>
 
             </Form>
         </section>

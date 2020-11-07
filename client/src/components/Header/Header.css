@@ -1,0 +1,16 @@
+.banner {
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-image: url("https://freefrontend.com/assets/img/css-background-patterns/untitled.png");
+    color: white;
+}
+
+img {
+    width: 80%;
+}
+
+.headText {
+    margin: auto;
+}

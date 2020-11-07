@@ -1,0 +1,9 @@
+.navbardesign {
+    background-color: #EC7427;
+}
+
+.nav-link {
+    border: 1px solid #992D44;
+    margin-left: 10px;
+    border-radius: 20px;
+}
